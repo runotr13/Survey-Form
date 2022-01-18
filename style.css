@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-left: 450px;
+    background-color:bisque;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-image: url(https://thumbs.dreamstime.com/b/beautiful-autumn-background-flying-falling-colorful-leaves-bokeh-frame-beautiful-autumn-background-flying-falling-99139534.jpg);
+    background-size: 100%;
+    
+    width: 800px;
+    
+}
+#image{
+    position: fixed;
+    right: 40px;
+    top:40px;
+    width: 350px;
+}
+#image1{
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    width: 350px;
+}
+#title{
+    text-decoration: overline 1px ;
+    margin-bottom: 10px;
+    font-size: 40px;
+    background-color: azure;
+    
+    margin-right: 350px;
+}
+#p1{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: underline;
+    color:white;
+    background-color: darkgoldenrod;
+    margin-right: 350px;
+    height: 30px;
+}
+#onediv input{
+    margin-top: 10px;
+    line-height: 20px;
+}
+#twodiv{
+    line-height: 20px;
+}
+#role{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#threediv{
+    line-height: 30px;
+}
+#fourdiv{
+    line-height: 25px;
+}
+#fivediv{
+    line-height: 30px;
+}
+#sixdiv{
+    line-height: 35px;
+}
+textarea{
+    resize: none;
+    
+}
+.special{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.special:hover{
+    font-size: 20px;
+    
+}
+nav{
+    background-color: rgba(0,0,0,0.5);
+    margin-right: 350px;
+    border: 1px solid black;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+div{
+    color: white;
+}
+#submit{
+    width: 80px;
+    height: 35px;
+    border-radius: 15px ;
+    background-color: brown;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+#submit:hover{
+    background-color:bisque;
+}
+nav div :hover{
+    background-color:brown;
+}
+
